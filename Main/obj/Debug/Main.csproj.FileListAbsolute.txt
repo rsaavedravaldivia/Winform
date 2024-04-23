@@ -1,0 +1,12 @@
+C:\Users\Ronal\Desktop\AAInternational\Main\bin\Debug\Data\sqliteDatabase.db
+C:\Users\Ronal\Desktop\AAInternational\Main\bin\Debug\bin\Debug\Data\sqliteDatabase.db
+C:\Users\Ronal\Desktop\AAInternational\Main\obj\Debug\Main.csproj.AssemblyReference.cache
+C:\Users\Ronal\Desktop\AAInternational\Main\obj\Debug\Main.MainForm.resources
+C:\Users\Ronal\Desktop\AAInternational\Main\obj\Debug\Main.csproj.GenerateResource.cache
+C:\Users\Ronal\Desktop\AAInternational\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+C:\Users\Ronal\Desktop\AAInternational\Main\obj\Debug\Main.csproj.CopyComplete
+C:\Users\Ronal\Desktop\AAInternational\Main\obj\Debug\Main.exe
+C:\Users\Ronal\Desktop\AAInternational\Main\obj\Debug\Main.pdb
+C:\Users\Ronal\Desktop\AAInternational\Main\bin\Debug\Main.exe.config
+C:\Users\Ronal\Desktop\AAInternational\Main\bin\Debug\Main.exe
+C:\Users\Ronal\Desktop\AAInternational\Main\bin\Debug\Main.pdb
