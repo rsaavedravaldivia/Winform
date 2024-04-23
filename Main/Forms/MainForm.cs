@@ -13,7 +13,9 @@ namespace Main
         public MainForm()
         {
             LoadAllForms();
+
             InitializeComponent();
+            LoadFormIntoPanelFormLoader(dashboardForm);
         }
 
 
