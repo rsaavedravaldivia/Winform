@@ -13,9 +13,17 @@ namespace Main
         public MainForm()
         {
             LoadAllForms();
+            PropertiesMainFrom();
 
             InitializeComponent();
             LoadFormIntoPanelFormLoader(dashboardForm);
+        }
+
+
+        private void PropertiesMainFrom()
+        {
+            this.WindowState = FormWindowState.Maximized;
+            this.DoubleBuffered = true;
         }
 
 
@@ -60,6 +68,7 @@ namespace Main
         private void buttonClients_Click(object sender, System.EventArgs e)
         {
             LoadFormIntoPanelFormLoader(clientForm);
+
         }
         private void buttonExit_Click(object sender, System.EventArgs e)
         {

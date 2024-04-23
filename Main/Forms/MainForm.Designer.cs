@@ -64,7 +64,7 @@
             this.buttonDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonDashboard.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonDashboard.ForeColor = System.Drawing.Color.White;
-            this.buttonDashboard.Location = new System.Drawing.Point(0, 250);
+            this.buttonDashboard.Location = new System.Drawing.Point(0, 133);
             this.buttonDashboard.Margin = new System.Windows.Forms.Padding(0);
             this.buttonDashboard.Name = "buttonDashboard";
             this.buttonDashboard.Size = new System.Drawing.Size(292, 88);
@@ -81,7 +81,7 @@
             this.buttonClients.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonClients.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonClients.ForeColor = System.Drawing.Color.White;
-            this.buttonClients.Location = new System.Drawing.Point(0, 338);
+            this.buttonClients.Location = new System.Drawing.Point(0, 221);
             this.buttonClients.Margin = new System.Windows.Forms.Padding(0);
             this.buttonClients.Name = "buttonClients";
             this.buttonClients.Size = new System.Drawing.Size(292, 88);
@@ -98,7 +98,7 @@
             this.buttonInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonInventory.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonInventory.ForeColor = System.Drawing.Color.White;
-            this.buttonInventory.Location = new System.Drawing.Point(0, 426);
+            this.buttonInventory.Location = new System.Drawing.Point(0, 309);
             this.buttonInventory.Margin = new System.Windows.Forms.Padding(0);
             this.buttonInventory.Name = "buttonInventory";
             this.buttonInventory.Size = new System.Drawing.Size(292, 88);
@@ -114,7 +114,7 @@
             this.buttonQuote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonQuote.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonQuote.ForeColor = System.Drawing.Color.White;
-            this.buttonQuote.Location = new System.Drawing.Point(0, 514);
+            this.buttonQuote.Location = new System.Drawing.Point(0, 397);
             this.buttonQuote.Margin = new System.Windows.Forms.Padding(0);
             this.buttonQuote.Name = "buttonQuote";
             this.buttonQuote.Size = new System.Drawing.Size(292, 88);
@@ -155,7 +155,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(292, 250);
+            this.panel2.Size = new System.Drawing.Size(292, 133);
             this.panel2.TabIndex = 0;
             // 
             // MainForm

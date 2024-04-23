@@ -13,20 +13,17 @@ namespace Main
         DataTable dataTable;
         public ClientForm()
         {
+
+            this.DoubleBuffered = true;
+
             InitializeComponent();
-            CustomizeGridView();
             StablishSQLiteConnection();
+
+
         }
 
 
 
-
-        private void CustomizeGridView()
-        {
-            clientDatagrid.RowHeadersVisible = false;
-            clientDatagrid.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            //  setup gridview todo
-        }
 
 
 
@@ -38,9 +35,8 @@ namespace Main
             dataTable = sqliteHandler.GetDatatableFromSQLite("clients");
             // adding the datatable to the datagridview
             clientDatagrid.DataSource = dataTable;
+
         }
-
-
 
 
 
@@ -85,18 +81,26 @@ namespace Main
         }
         private void btnDeleteClient_Click(object sender, EventArgs e)
         {
-            if (selectedRow != null)
+
+            try
             {
-                ClientTableHandler.DeleteClientFromClients(sqliteHandler, int.Parse(selectedRow.Cells[0].Value.ToString()));
-                dataTable = sqliteHandler.GetDatatableFromSQLite("clients"); ;
-                clientDatagrid.DataSource = dataTable;
+                if (selectedRow != null)
+                {
+                    ClientTableHandler.DeleteClientFromClients(sqliteHandler, int.Parse(selectedRow.Cells[0].Value.ToString()));
+                    dataTable = sqliteHandler.GetDatatableFromSQLite("clients"); ;
+                    clientDatagrid.DataSource = dataTable;
+                    clientDatagrid.CurrentRow.Selected = false;
+                }
             }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Please select a client first");
+                return;
+            }
+
+
         }
-
-
-
-
-
 
         private DataGridViewRow selectedRow;
         private void clientDatagrid_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -105,14 +109,27 @@ namespace Main
             if (current != null)
             {
                 selectedRow = clientDatagrid.CurrentRow;
+
+                clientDatagrid.CurrentRow.Selected = true;
+
                 tbFirstName.Text = selectedRow.Cells[1].Value.ToString();
                 tbLastName.Text = selectedRow.Cells[2].Value.ToString();
                 tbPhone.Text = selectedRow.Cells[3].Value.ToString();
                 tbEmail.Text = selectedRow.Cells[4].Value.ToString();
                 tbAddress.Text = selectedRow.Cells[5].Value.ToString();
-
-                Console.WriteLine(selectedRow.Cells[0].Value);
             }
+        }
+
+        private void ClientForm_Load(object sender, EventArgs e)
+        {
+            clientDatagrid.RowHeadersVisible = false;
+            clientDatagrid.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+            clientDatagrid.Rows[0].Selected = true;
+
+
+
+
+
         }
     }
 }
