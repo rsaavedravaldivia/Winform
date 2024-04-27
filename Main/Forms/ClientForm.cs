@@ -2,6 +2,7 @@
 using Main.Libraries;
 using System;
 using System.Data;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Main
@@ -18,6 +19,45 @@ namespace Main
 
             InitializeComponent();
             StablishSQLiteConnection();
+            DesignDatagridview();
+
+
+        }
+
+
+        private void DesignDatagridview()
+        {
+
+            // style
+
+            clientDatagrid.BorderStyle = BorderStyle.None;
+            clientDatagrid.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
+            clientDatagrid.EnableHeadersVisualStyles = false;
+
+            clientDatagrid.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            clientDatagrid.RowsDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            clientDatagrid.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+
+
+
+
+
+            // hiding row header
+
+            clientDatagrid.RowHeadersVisible = false;
+
+
+            // alternating row color
+            clientDatagrid.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(200, 239, 249);
+
+
+            // header
+            clientDatagrid.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(20, 25, 70);
+            clientDatagrid.ColumnHeadersDefaultCellStyle.ForeColor = Color.WhiteSmoke;
+
+            // selection color
+            clientDatagrid.DefaultCellStyle.SelectionBackColor = Color.DarkBlue;
+
 
 
         }

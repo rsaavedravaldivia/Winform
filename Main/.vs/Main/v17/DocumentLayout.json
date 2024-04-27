@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|solutionrelative:forms\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|c:\\users\\ronal\\desktop\\aainternational\\winform\\main\\forms\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\forms\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|solutionrelative:forms\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\forms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|solutionrelative:forms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|c:\\users\\ronal\\desktop\\aainternational\\winform\\main\\code\\clienttablehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|solutionrelative:code\\clienttablehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\code\\sqlitehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\forms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|solutionrelative:forms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\code\\clienttablehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|solutionrelative:code\\clienttablehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B40152A-F2CB-472E-8ABD-5EB4ED7F146B}|Main.csproj|C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\code\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "Forms\\MainForm.cs",
@@ -124,27 +124,27 @@
               "RelativeDocumentMoniker": "Forms\\ClientForm.cs",
               "ToolTip": "C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\Forms\\ClientForm.cs",
               "RelativeToolTip": "Forms\\ClientForm.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAArwGIAAAAXAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAA2wCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T17:57:12.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "ClientTableHandler.cs",
               "DocumentMoniker": "C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\Code\\ClientTableHandler.cs",
               "RelativeDocumentMoniker": "Code\\ClientTableHandler.cs",
               "ToolTip": "C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\Code\\ClientTableHandler.cs",
               "RelativeToolTip": "Code\\ClientTableHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAcwDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T17:57:12.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "DashboardForm.cs",
               "DocumentMoniker": "C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\Forms\\DashboardForm.cs",
               "RelativeDocumentMoniker": "Forms\\DashboardForm.cs",
@@ -157,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "Forms\\MainForm.cs",
@@ -170,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -178,12 +178,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T18:37:54.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T18:37:54.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SQLiteHandler.cs",
               "DocumentMoniker": "C:\\Users\\Ronal\\Desktop\\AAInternational\\Winform\\Main\\Code\\SQLiteHandler.cs",
               "RelativeDocumentMoniker": "Code\\SQLiteHandler.cs",
@@ -191,8 +190,7 @@
               "RelativeToolTip": "Code\\SQLiteHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAA3wCsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T17:57:12.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T17:57:12.663Z"
             },
             {
               "$type": "Document",
